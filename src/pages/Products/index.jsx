@@ -44,11 +44,11 @@ const Products = () => {
                 onTabSwitch={onTabSwitch}
               />
             )}
-            <div className="flex flex-row mx-3">
+            <div className="flex flex-wrap mx-auto px-20 py-20">
               {products.products &&
                 products.products[activeTabIndex].products.map((product, index) => {
                   return (
-                    <div key={index} className="card">
+                    <div key={index} className="card w-1/3" >
                       <img
                         className="card-image"
                         src={product.imageUrl}
