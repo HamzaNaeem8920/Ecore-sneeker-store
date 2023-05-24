@@ -22,33 +22,33 @@ export const Banner = () => {
             <div className="banner-image w-3/2 md:w-1/2 p-6 flex justify-end">
            
 
-    <Carousel autoPlay infiniteLoop interval={3000}  showThumbs={false} showArrows={false} showStatus={false} stopOnHover={true}>
+    <Carousel autoPlay infiniteLoop interval={2500}  showThumbs={false} showArrows={false} showStatus={false} stopOnHover={true}>
       <div>
         <img
           src={require("../assets/images/shoe.png")}
           alt="Image 1"
-          className="max-h-125"
+          className="max-h-150"
         />
       </div>
       <div>
         <img
           src={require("../assets/images/shoe2.png")}
           alt="Image 2"
-          className="max-h-125"
+          className="max-h-150"
         />
       </div>
       <div>
         <img
           src={require("../assets/images/shoe3.png")}
           alt="Image 3"
-          className="max-h-125"
+          className="max-h-150"
         />
       </div>
       <div>
         <img
           src={require("../assets/images/shoe4.png")}
           alt="Image 4"
-          className="max-h-125"
+          className="max-h-150"
         />
       </div>
     </Carousel>
